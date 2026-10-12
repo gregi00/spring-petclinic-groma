@@ -46,3 +46,7 @@ out/
 _site/
 *.css
 !petclinic.css
+
+### Groma / tooling ###
+node_modules/
+groma-site/

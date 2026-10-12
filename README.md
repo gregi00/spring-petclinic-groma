@@ -4,6 +4,18 @@
 
 ## Understanding the Spring Petclinic application with a few diagrams
 
+## Architecture tracking with Groma
+
+This repository is wired for Groma so the architecture remains in Git and can be compared across changes. The project stores the architecture under `groma/`, while the GitHub workflow in `.github/workflows/groma-pr.yml` publishes a before/after architecture diff for pull requests.
+
+Useful commands:
+
+```bash
+npm install
+npm run groma:scan
+npm run groma:web
+```
+
 See the presentation here:  
 [Spring Petclinic Sample Application (legacy slides)](https://speakerdeck.com/michaelisvy/spring-petclinic-sample-application?slide=20)
 
