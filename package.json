@@ -1,0 +1,14 @@
+{
+  "name": "spring-petclinic-groma",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Spring PetClinic with Groma architecture tracking",
+  "scripts": {
+    "groma:scan": "groma scan",
+    "groma:web": "groma web",
+    "groma:export": "groma export ./groma-site"
+  },
+  "devDependencies": {
+    "groma.md": "^0.6.6"
+  }
+}
