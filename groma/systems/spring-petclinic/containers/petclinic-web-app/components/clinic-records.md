@@ -26,7 +26,7 @@ groma:
       symbol: Vet
   group: Clinic domain model
   technology: Jakarta Persistence
-description: Models clinic owners, pets, visits, veterinarians, and their catalog values.
+description: 'Defines the JPA-backed clinic domain: owners, pets, visits, veterinarians, and reference data.'
 ---
 
 JPA entities represent owners and their pets and visits, plus veterinarians, pet types, and specialties. Owners contain pets, pets contain visits and refer to a pet type, and veterinarians are associated with specialties.
