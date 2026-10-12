@@ -6,4 +6,4 @@ groma:
 description: Spring Boot sample for managing a veterinary clinic.
 ---
 
-Clinic staff use the web application to manage owners, pets, veterinarians, and visits. Spring MVC controllers handle browser requests and Spring Data repositories persist clinic records; H2 is the default database, with MySQL and PostgreSQL profiles available.
+Clinic staff use the web application to manage owners, pets, veterinarians, and visits. The project demonstrates a Spring MVC web application with Spring Data persistence and configurable relational databases.
